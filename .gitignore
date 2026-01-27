@@ -1,0 +1,74 @@
+# ===============================
+# Python cache / build artifacts
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# ===============================
+# Virtual environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Data & results (IMPORTANT)
+# ===============================
+data/
+datasets/
+results/
+outputs/
+logs/
+checkpoints/
+*.h5
+*.ckpt
+*.pt
+*.pth
+*.npy
+*.npz
+*.pkl
+
+# ===============================
+# Experiments / local work
+# ===============================
+Old/
+scratch/
+tmp/
+experiments/
+
+# ===============================
+# OS / editor noise
+# ===============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===============================
+# Secrets
+# ===============================
+.env
+*.env
+.env.*
+
+# ===============================
+# LaTeX / figures (optional)
+# ===============================
+*.aux
+*.log
+*.out
+*.toc
