@@ -1,6 +1,3 @@
-# ===============================
-# Python cache / build artifacts
-# ===============================
 __pycache__/
 *.py[cod]
 *.pyo
@@ -10,22 +7,13 @@ __pycache__/
 dist/
 build/
 
-# ===============================
-# Virtual environments
-# ===============================
 .venv/
 venv/
 env/
 ENV/
 
-# ===============================
-# Jupyter
-# ===============================
 .ipynb_checkpoints/
 
-# ===============================
-# Data & results (IMPORTANT)
-# ===============================
 data/
 datasets/
 results/
@@ -40,17 +28,11 @@ checkpoints/
 *.npz
 *.pkl
 
-# ===============================
-# Experiments / local work
-# ===============================
 Old/
 scratch/
 tmp/
 experiments/
 
-# ===============================
-# OS / editor noise
-# ===============================
 .DS_Store
 Thumbs.db
 .idea/
@@ -58,16 +40,10 @@ Thumbs.db
 *.swp
 *.swo
 
-# ===============================
-# Secrets
-# ===============================
 .env
 *.env
 .env.*
 
-# ===============================
-# LaTeX / figures (optional)
-# ===============================
 *.aux
 *.log
 *.out
